@@ -27,6 +27,7 @@ A real-time handwritten digit recognition application using a CNN model trained 
 ├── app.py              # Main application with GUI and prediction logic
 ├── OCR.ipynb           # Model training notebook
 ├── bestmodel.h5        # Trained CNN model
+├── requirements.txt    # Project dependencies
 └── README.md
 ```
 
@@ -39,7 +40,7 @@ cd single-digit-classifier-ML-model
 
 Install dependencies:
 ```bash
-pip install pygame numpy opencv-python keras tensorflow
+pip install -r requirements.txt
 ```
 
 ## Running the Application
@@ -49,6 +50,7 @@ python app.py
 ```
 
 ## Controls
+
 - **Mouse drag** - Draw on the canvas
 - **Mouse release** - Trigger prediction
 - **N key** - Clear the canvas
